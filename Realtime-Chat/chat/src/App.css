@@ -1,0 +1,110 @@
+/* .content{
+  border: 1px solid black;
+} */
+body {
+  /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  width: 100%;
+}
+
+.login-card {
+  height: 90vh;
+     display: flex;
+  justify-content: center;
+  padding: 30px;
+
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  padding: 30px;
+
+}
+
+.login-page {
+  display: flex;
+  justify-items: center;
+  padding: 20px 30px;
+  height: 30%;
+  
+}
+
+/* chat */
+.card-content {
+  height: 95vh;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border: 1px solid rgb(92, 220, 243);
+}
+
+.card-item {
+  background: rgb(1, 164, 166);
+  background: linear-gradient(90deg, rgba(1, 164, 166, 1) 0%, rgba(1, 146, 152, 1) 40%, rgba(0, 161, 177, 1) 100%);
+
+  border-bottom: 1px solid rgba(70, 216, 253, 0.274);
+  width: 100%;
+  position: static;
+  top: 0;
+  /* background-color: #fff; */
+  padding: 10px 20px;
+}
+
+.message-list {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 0px 5px;
+}
+
+.message-list input {
+  padding: 13px;
+  background-color: rgba(213, 238, 248, 0.7);
+}
+
+.chat-height {
+  position: relative;
+  overflow: auto;
+  height: calc(100% -20vh) !important;
+}
+
+.chat-window {
+  z-index: 1000;
+  height: 100%;
+  overflow: hidden;
+}
+
+.chat-message-right {
+  margin-right: auto;
+  display: flex;
+  flex-shrink: 0;
+  min-width: 20%;
+}
+
+.chat-message-left {
+  display: flex;
+  flex-shrink: 0;
+  margin-left: auto;
+  flex-direction: row-reverse;
+  min-width: 20%;
+
+}
+
+.styles_scrollable-div__prSCv {
+  max-height: calc(100% - 2px) !important;
+  height: calc(100% - 2px) !important;
+  overflow-y: auto;
+}
+
+.chat-input {
+  position: sticky;
+  bottom: 0;
+}
